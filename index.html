@@ -21,13 +21,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
 
-<!-- Google Font Headdings: Francois One -->
+    <!-- Google Font Headdings: Francois One -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
 
-    <!-- Google Font Headdings: Montserrat-->
+    <!-- Google Font Text: Montserrat-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap" rel="stylesheet">
 
     <!-- Google Font Text: Kaushan for logo -->
     <link
@@ -37,10 +37,10 @@
 
 
 </head>
-<body>
+    <body>
 
-<!--Header-->
-<header>
+    <!--Header-->
+    <header>
     
     <section class="name-header">
         <div class="cube"></div>
@@ -60,19 +60,27 @@
             </li>
     </ul>
             
-</header>
+    </header>
     
-<!--Intro-->
-<section id="home" class="intro ">
+    <!--Intro-->
+    <section id="home" class="intro ">
+    
+        <div class="box-beige-dark"></div>
 
     <div class="leftside">
-        <div class="box-beige-dark">
+        <div class="box-beige">
         
             <img class="profile-foto" alt="profile" src="img/foto.jpg" width="250px" height="250px">
             <h1>Simona <br> Sušková</h1>
             <hr>
             <h4>Frontend Developer</h4>
-            <div class="social">Socialni site</div>
+            <div class="social">
+
+                <img class="social-logo" alt="linkedin" src="img/linkedin2.png" width="50px" height="50px">
+                <img class="social-logo" alt="git" src="img/git.png" width="50px" height="50px">
+                <img class="social-logo" alt="whatsapp" src="img/whatsapp.png" width="50px" height="50px">
+
+            </div>
         
         </div>
     </div>
@@ -88,8 +96,8 @@
 
         <button type="button" class="btn btn2">Projekty</button>
 
-        <p>Diplomovaná inženýrka, která hledá uplatnění jako<br>
-            <strong>Junior Web Developer</strong>.</p>
+        <p>Diplomovaná inženýrka, která hledá uplatnění jako <br>
+            Junior Web Developer.</p>
 
         <p>Mám dlouholetou praxi v oblasti automotive. Mé předchozí zkušenosti zahrnují výzkum a vývoj, optimalizaci slévárenských procesů a simulace.
         <!-- Moje předchozí zkušenosti zahrnují znalosti výrobní technologií, simulace procesů, výzkum a vývoj.
@@ -101,55 +109,63 @@
 
     </div>
 
-</section>
+    </section>
 
-<!--Projects-->
-<section class="projects">
-    <div class="cube"></div>
-    <h1>Projekty</h1>
-
-    <section class="czechitas">
-        <div class="description">
-            <h4>Cestovní Itinerář</h4>
-            Závěrečný projekt digitální akademie - webový vývoj (Czechitas)
+    <!--Projects-->
+    <section class="projects">
+    
+    <section class="projects-header">
+        <div class="cube-projects"></div>
+        <h1>Projekty</h1>
+    </section>
+    
+    <section class="description">
+        <div class="block-projects"></div>
+        <div class=" czechitas">
+            <h3>Cestovní itinerář</h3>
+            <p class="text">Závěrečný projekt digitální akademie - webový vývoj (Czechitas)
             Stránka umožní uživateli naplánovat výlet a prozkoumat zvolenou destinaci v rámci České Republiky.
-            Vybráním klíčových aktivit se trasa zobrazí na mapě a proklikem umožní další možnosti cestování. 
+            Vybráním klíčových aktivit se trasa zobrazí na mapě a proklikem umožní další možnosti cestování.
+            </p>
         </div>
         <img class="travel_itinerary" alt="travel_itinerary" src="img/travel_itinerary.png" width="320px" height="200px">
         
-
     </section>
     
-    <section class="diversity">
-        <div class="description">
-            <h4>Diversity pool</h4>
-            Dobrovolnický projekt pro neziskovou společnost OPIM ve spolupráci s eSoul Studio.
-        
+    <section class="description">
+        <div class="diversity">
+            <h3>Diversity pool</h3>
+            <p class="text">Dobrovolnický projekt pro neziskovou společnost OPIM ve spolupráci s eSoul Studio.
+            </p>
         </div>
         <img class="diversity_pool" alt="diversity_pool" src="img/diversity_pool.png" width="320px" height="200px">
        
 
     </section>
 
-    <section class="Lucie">
-        <div class="description">
-            <h4>Prezenční web</h4>
-            Prezenční web na Wix platformě.
+    <section class="description">
+        <div class="wix">
+            <h3>Prezenční web</h3>
+            <p class="text">Prezenční web na Wix platformě.</p>
         </div>
         <img class="lucie_scha" alt="lucie_scha" src="img/lucie_scha.png" width="320px" height="200px">
         
 
     </section>
 
-    <section class="Toman">
-        <div class="description">
-            <h4>Prezenční web</h4>
-            Redesign webu na WordPress platformě. 
+    <section class="description">
+        <div class="wordpress">
+            <h3>Prezenční web</h3>
+            <p class="text">Redesign webu na WordPress platformě. </p>
         </div>
         <img class="jirka_toman" alt="jirka_toman" src="img/jirka_toman.png" width="320px" height="200px">
        
 
     </section>
+
+    </section>
+
+
 
     <!-- <section class="Petr">
         <div class="description">
@@ -159,42 +175,47 @@
         <img>
         -->
 
-    </section>
+    <!-- </section> -->
 
-</section>
 
 
 <!--Contact-->
-<section class="contact">
-    <h1>Spolupráce? Pojďme to probrat u kafe!</h1>
+    <h1 class="cooperation">...spolupráce? <br> Pojďme to probrat u kafe!</h1>
+
+    <section class="contact">
+
+        <div class="call">
+            <p id="contactcolor">Call</p>
+            <p>+420 773 110 695</p>
+         </div>
+
+        <div class="write">
+            <p id="contactcolor">Write</p>
+            <a href="mailto:sim.suskova@gmail.cz">sim.suskova@gmail.cz</a>
+        </div>
+
+        <div class="follow">
+            <p id="contactcolor">Follow</p>
+            
+        </div>
+
+    </section>
 
 
-    <div class="call">
-        <p id="footercolor">Call</p>
-        <p><strong>+420 773 110 695</strong></p>
-    </div>
+    <!--Footer-->
+    <footer id="version">
 
-    <div class="write">
-        <p id="footercolor">Write</p>
-        <a href="mailto:sim.suskova@gmail.cz"></strong>sim.suskova@gmail.cz</strong></a>
-    </div>
-
-
-</section>
-
-<!--Footer-->
-<footer id="contact" class="fixed-bottom footer">
-
-    <div class="update">
-        <p id="footercolor">© 2020, Simona Sušková</p>
-        <p>Aktualizace říjen 2020</p>
-    </div>
+        
+            <p>Aktualizace říjen 2020</p>
+            <br>
+            <p>© 2020, Simona Sušková</p>
+        
 
 
 
-</footer>
+    </footer>
 
-</section>
+
 
 <script
 src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
