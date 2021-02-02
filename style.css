@@ -64,6 +64,16 @@ h3 {
 
 /* ----- Intro ----- */
 
+.hello {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+header {
+  background-color: white;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -226,10 +236,15 @@ hr {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
   padding: 60px;
   padding: 60px;
 }
+
+.social-logo:focus {
+  background-color: rgba(64, 53, 234);
+}
+
 
 /* ----- Footer ----- */
 
